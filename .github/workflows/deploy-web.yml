@@ -39,5 +39,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: 5c7fdf78d4d2547b33b1eda2d26f1c1c
           command: pages deploy build/web --project-name una-luz
